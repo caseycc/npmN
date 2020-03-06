@@ -1,0 +1,17 @@
+{
+  "name": "npmn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dogcatmouse": "uglifyjs script.js -o script.min.js --mangle"
+  },
+  "author": "C Casey",
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^3.8.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
